@@ -15,7 +15,7 @@ ol {
 
 a {
     text-decoration: none;
-
+    color: white;
 }
 
 a:link {
@@ -58,7 +58,7 @@ font-family: 'Cormorant Garamond', serif; */
     padding: 1em;
 }
 
-h1 {
+h1{
     font-size: 1.5rem;
 }
 
@@ -123,13 +123,6 @@ h1 {
 #menu-toggle:checked+.menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
-}
-
-nav ul li a,
-.novedades__articulos__individual a,
-.biblioteca__enlaces--documentacion a,
-.biblioteca__enlaces--programa a {
-    color: white;
 }
 
 main {
@@ -446,13 +439,13 @@ p {
     flex-direction: column;
 }
 
-.historia__articulos--1 p,
+/* .historia__articulos--1 p,
 .historia__articulos--2 p,
 .historia__articulos--3 p,
 .historia__articulos--4 p,
 .noticia__individual p {
     font-size: 2rem;
-}
+} */
 
 /* VERSION TABLET */
 
@@ -626,8 +619,14 @@ p {
 
 @media (min-width: 1200px) {
 
-    h1 {
-        font-size: 3rem;
+    h1,
+    h2,
+    h3{
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1.5rem;
     }
 
     .destacado {
@@ -788,7 +787,7 @@ p {
     }
 
     .historia__articulos--4 p {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .historia__articulos--1,
@@ -864,15 +863,9 @@ p {
         padding: 0.2rem;
     }
 
-    h2,
-    h3{
-        font-size: 2rem;
-    }
 
-    p {
-        font-size: 1.5rem;
-        ;
-    }
+
+
 
     .campamento__imagenes {
         display: grid;
