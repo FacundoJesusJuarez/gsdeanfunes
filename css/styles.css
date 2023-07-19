@@ -58,6 +58,9 @@ font-family: 'Cormorant Garamond', serif; */
     padding: 1em;
 }
 
+.top-nav h1{
+    font-size: 1rem;
+}
 .menu {
     display: flex;
     flex-direction: row;
