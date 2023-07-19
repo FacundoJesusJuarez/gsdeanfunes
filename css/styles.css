@@ -58,7 +58,7 @@ font-family: 'Cormorant Garamond', serif; */
     padding: 1em;
 }
 
-.top-nav h1 {
+h1 {
     font-size: 1rem;
 }
 
@@ -860,7 +860,10 @@ p {
         padding: 0.2rem;
     }
 
-    h1,
+    h1 {
+        font-size: 3rem;
+    }
+
     h2,
     h3{
         font-size: 2rem;
