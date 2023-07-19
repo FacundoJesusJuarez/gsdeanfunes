@@ -355,8 +355,8 @@ main {
     padding: 1rem;
 }
 
-.contacto h1,
-.biblioteca h1 {
+.contacto h2,
+.biblioteca h2 {
     align-self: center;
 }
 
@@ -404,8 +404,8 @@ iframe {
     margin: auto;
 }
 
-.biblioteca__enlaces h2,
-.ubicacion h2,
+.biblioteca__enlaces h3,
+.ubicacion h3,
 .ubicacion h3 {
     color: orangered;
 }
@@ -424,12 +424,8 @@ p {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.top-nav h1 {
-    font-size: 3rem;
-}
-
-.biblioteca__titulo h1,
-.titulo_contacto h1 {
+.biblioteca__titulo h2,
+.titulo_contacto h2 {
     font-size: 4rem;
 }
 
@@ -866,8 +862,7 @@ p {
 
     h1,
     h2,
-    h3,
-    .top-nav h1 {
+    h3{
         font-size: 2rem;
     }
 
