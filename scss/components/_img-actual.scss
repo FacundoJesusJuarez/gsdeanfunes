@@ -1,0 +1,13 @@
+.actual {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border-style: none;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+
+    img {
+        align-self: center;
+    }
+}

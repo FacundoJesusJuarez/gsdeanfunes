@@ -1,0 +1,76 @@
+$ff-Cormorant: 'Cormorant Garamond', serif;
+$ff-Bebas: 'Bebas Neue', sans-serif;
+$c-naranja: orangered;
+$c-negro: black;
+$c-blanco: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $c-blanco;
+    font-family: $ff-Cormorant;
+
+    &:link {
+        color: none;
+    }
+
+    &:visited {
+        color: none;
+    }
+}
+
+h1,
+h3 {
+    font-size: 1.5rem;
+    font-family: $ff-Bebas;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: $ff-Bebas;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    font-family: $ff-Cormorant;
+}
+
+main {
+    background-color: $c-negro;
+    color: $c-blanco;
+}
+
+@media (min-width: 1200px) {
+
+    h1,
+    h3 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+}

@@ -1,0 +1,106 @@
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $c-negro;
+
+    h2 {
+        display: none;
+    }
+}
+
+.redes__links {
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+.icon {
+    background-color: $c-naranja;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes__manada,
+.redes__unidad,
+.redes__caminantes,
+.redes_rover {
+    display: none;
+}
+
+.footer__imagenes {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 150px 100px;
+    justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+    .redes h2 {
+        font-size: 1.5rem;
+        display: inline;
+        color: $c-blanco;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .redes,
+    .redes__manada,
+    .redes__unidad,
+    .redes__caminantes,
+    .redes_rover {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: $c-blanco;
+        align-items: center;
+    }
+
+    .redes h2 {
+        color: $c-negro;
+        font-size: 2rem;
+    }
+
+    .redes__links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .footer__imagenes {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        max-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer__imagenes-argentina {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 200px;
+    }
+
+    .footer__imagenes-mundial {
+        width: 200px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+}

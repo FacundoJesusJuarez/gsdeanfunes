@@ -1,0 +1,140 @@
+.biblioteca__titulo h2,
+.titulo_contacto h2 {
+    font-size: 4rem;
+}
+
+.biblioteca__enlaces h3,
+.ubicacion h3,
+.ubicacion h3 {
+    color: $c-naranja;
+}
+
+.biblioteca__enlaces,
+form,
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: $c-blanco;
+    border-width: 0.3rem;
+    gap: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.biblioteca__enlaces--documentacion {
+    padding: 0.2rem;
+}
+
+.biblioteca__enlaces--imagen,
+form img {
+    display: none;
+}
+
+.form__nombre,
+.form__email,
+.form__mensaje,
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    max-width: 100%;
+    margin: auto;
+}
+
+.biblioteca__titulo,
+.titulo_contacto {
+    display: flex;
+    height: 20vh;
+    background-color: $c-blanco;
+    color: $c-negro;
+    font-size: 1.5rem;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contacto h2,
+.biblioteca h2 {
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+
+    .biblioteca__enlaces {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+
+    form img {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .form-ubicacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    form,
+    .ubicacion {
+        border: none;
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .main__biblioteca-contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100%;
+    }
+
+    .biblioteca__enlaces {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        border: none;
+    }
+
+    .biblioteca__enlaces--imagen {
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+    }
+
+    .form-ubicacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .biblioteca__titulo,
+    .titulo_contacto {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 3.5rem;
+        height: 10%;
+    }
+
+    .biblioteca__titulo img,
+    .titulo_contacto img,
+    form img {
+        display: none;
+    }
+
+    input {
+        font-size: 1.5rem;
+        padding: 0.2rem;
+    }
+}

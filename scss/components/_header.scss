@@ -1,0 +1,13 @@
+.header__index {
+    background-color: $c-negro;
+}
+
+.header__resto {
+    background-color: $c-blanco;
+
+    img {
+        display: flex;
+        padding: 2rem;
+        margin: auto;
+    }
+}
