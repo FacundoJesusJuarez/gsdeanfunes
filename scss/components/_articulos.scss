@@ -37,7 +37,7 @@
 }
 
 .novedades__articulos__individual:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -45,7 +45,11 @@
 .nosotros__articulos--4,
 .historia__articulos--4 {
     border: none;
-    animation: zoom 5s infinite;
+
+    img {
+        animation: zoom 5s infinite;
+    }
+
     padding: 2rem;
 }
 
