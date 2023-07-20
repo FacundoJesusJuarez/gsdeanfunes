@@ -37,7 +37,6 @@
     border: none;
 }
 
-
 @media (min-width: 768px) {
 
     .novedades__articulos {
@@ -74,7 +73,7 @@
     .nosotros__articulos,
     .historia__articulos {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat (3, 1fr);
         grid-template-rows: repeat (4, 250px);
         gap: none
     }
@@ -84,7 +83,6 @@
         grid-row: 1/2;
         justify-items: center;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
     }
 
     .historia__articulos--2 {
@@ -114,15 +112,4 @@
     .historia__articulos--4 p {
         font-size: 2rem;
     }
-
-    .nosotros__articulos--1,
-    .nosotros__articulos--5,
-    .nosotros__articulos--6,
-    .historia__articulos--1,
-    .historia__articulos--2,
-    .historia__articulos--3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
 }
