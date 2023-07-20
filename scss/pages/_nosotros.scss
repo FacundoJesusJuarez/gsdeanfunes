@@ -13,6 +13,10 @@
 }
 
 @media (min-width: 1200px) {
+    .organigrama {
+        max-width: 80%;
+        margin: auto;
+    }
 
     .nosotros__articulos--1 {
         grid-column: 1/3;

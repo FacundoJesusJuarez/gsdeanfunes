@@ -8,6 +8,10 @@
 
     p {
         font-size: 1.5rem;
+
+        &:hover {
+            transform: rotate(360deg) 10s ease;
+        }
     }
 }
 

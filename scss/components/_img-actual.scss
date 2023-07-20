@@ -1,7 +1,7 @@
 .actual {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     border-style: none;
     text-align: center;
     margin: auto;
@@ -9,11 +9,12 @@
 
     img {
         align-self: center;
+        object-fit: contain;
     }
 }
 
 @media (min-width: 1200px) {
-    .actual img{
-        max-width: 1400px;
+    .actual{
+        max-width: 1300px;
     }
     }
