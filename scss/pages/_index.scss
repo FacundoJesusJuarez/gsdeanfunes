@@ -8,10 +8,6 @@
 
     p {
         font-size: 1.5rem;
-
-        &:hover {
-            transform: rotate(360deg) 10s ease;
-        }
     }
 }
 
@@ -21,6 +17,7 @@
     color: $c-negro;
     margin: 0.5rem;
     font-size: 2rem;
+    box-shadow: 10px 10px 10px $c-negro;
 }
 
 @media (min-width: 768px) {
