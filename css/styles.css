@@ -62,10 +62,6 @@ main {
   p {
     font-size: 1.2rem;
   }
-  main {
-    max-width: 1300px;
-    margin-left: auto;
-  }
 }
 .header__index {
   background-color: black;
@@ -341,7 +337,6 @@ main {
 .nosotros__articulos--4,
 .historia__articulos--4 {
   border: none;
-  padding: 2rem;
 }
 .nosotros__articulos--3 img,
 .nosotros__articulos--4 img,
@@ -421,6 +416,7 @@ main {
     justify-content: center;
     align-items: center;
     border: none;
+    padding-right: 4rem;
   }
   .historia__articulos--4 p {
     font-size: 1.5rem;
