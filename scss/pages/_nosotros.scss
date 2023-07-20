@@ -4,14 +4,6 @@
 }
 
 @media (min-width: 768px) {
-
-    .nosotros__articulos--3,
-    .nosotros__articulos--4 {
-        display: flex;
-        justify-content: center;
-        padding: none;
-    }
-
     .instalaciones__imagenes {
         display: grid;
         grid-template-columns: 50% 50%;
