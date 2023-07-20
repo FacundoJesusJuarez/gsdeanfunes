@@ -11,3 +11,9 @@
         align-self: center;
     }
 }
+
+@media (min-width: 1200px) {
+    .actual{
+        max-width: 1400px;
+    }
+    }
