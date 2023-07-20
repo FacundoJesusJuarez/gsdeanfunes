@@ -35,7 +35,6 @@
 .nosotros__articulos--3,
 .nosotros__articulos--4 {
     border: none;
-    box-shadow: 10px 10px 10px $c-blanco;
 }
 
 @media (min-width: 768px) {
@@ -84,6 +83,11 @@
         grid-template-columns: repeat (3, 1fr);
         grid-template-rows: repeat (4, 250px);
         gap: none
+    }
+
+    .nosotros__articulos--3,
+    .nosotros__articulos--4 {
+        box-shadow: 10px 10px 10px $c-blanco;
     }
 
     .historia__articulos--1 {

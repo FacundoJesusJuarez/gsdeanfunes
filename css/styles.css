@@ -38,7 +38,7 @@ h2 {
   font-size: 2rem;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  text-shadow: 10px 10px 10px white;
+  text-shadow: 10px 10px 15px white;
 }
 
 p {
@@ -328,7 +328,6 @@ main {
 .nosotros__articulos--3,
 .nosotros__articulos--4 {
   border: none;
-  box-shadow: 10px 10px 10px white;
 }
 
 @media (min-width: 768px) {
@@ -372,6 +371,10 @@ main {
     grid-template-columns: repeat 3, 1fr;
     grid-template-rows: repeat 4, 250px;
     gap: none;
+  }
+  .nosotros__articulos--3,
+  .nosotros__articulos--4 {
+    box-shadow: 10px 10px 10px white;
   }
   .historia__articulos--1 {
     grid-column: 1/3;
@@ -431,7 +434,10 @@ main {
     border: none;
   }
   .noticia__individual img {
+    max-width: 500px;
     padding-bottom: 0.5rem;
+    box-shadow: 10px 10px 10px white;
+    text-align: center;
   }
 }
 .actual {
@@ -540,7 +546,7 @@ main {
   color: black;
   margin: 0.5rem;
   font-size: 2rem;
-  box-shadow: 10px 10px 10px black;
+  text-shadow: 10px 10px 10px black;
 }
 
 @media (min-width: 768px) {
@@ -729,6 +735,10 @@ input {
   }
 }
 @media (min-width: 1200px) {
+  .biblioteca__titulo h2,
+  .titulo_contacto h2 {
+    box-shadow: none;
+  }
   .main__biblioteca-contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;

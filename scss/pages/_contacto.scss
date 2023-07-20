@@ -104,6 +104,11 @@ input {
 
 @media (min-width: 1200px) {
 
+    .biblioteca__titulo h2,
+    .titulo_contacto h2 {
+        box-shadow: none;
+    }
+
     .main__biblioteca-contacto {
         display: grid;
         grid-template-columns: 1fr 1fr;
