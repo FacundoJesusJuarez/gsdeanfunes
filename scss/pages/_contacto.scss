@@ -63,6 +63,11 @@ iframe {
     align-self: center;
 }
 
+label,
+input {
+    font-size: 1rem;
+}
+
 @media (min-width: 768px) {
 
     .biblioteca__enlaces {
@@ -87,6 +92,11 @@ iframe {
     .ubicacion {
         border: none;
         width: 50%;
+    }
+
+    label,
+    input {
+        font-size: 1.2rem;
     }
 
 }
@@ -133,8 +143,8 @@ iframe {
         display: none;
     }
 
+    label,
     input {
         font-size: 1.5rem;
-        padding: 0.2rem;
     }
 }

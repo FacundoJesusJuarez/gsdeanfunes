@@ -398,6 +398,9 @@ main {
     align-items: center;
     border: none;
   }
+  .historia__articulos--4 p {
+    font-size: 1.5rem;
+  }
 }
 .noticia {
   display: flex;
@@ -443,7 +446,7 @@ main {
 }
 
 @media (min-width: 1200px) {
-  .actual {
+  .actual img {
     max-width: 1400px;
   }
 }
@@ -685,6 +688,11 @@ iframe {
   align-self: center;
 }
 
+label,
+input {
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   .biblioteca__enlaces {
     display: flex;
@@ -705,6 +713,10 @@ iframe {
   .ubicacion {
     border: none;
     width: 50%;
+  }
+  label,
+  input {
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -742,9 +754,9 @@ iframe {
   form img {
     display: none;
   }
+  label,
   input {
     font-size: 1.5rem;
-    padding: 0.2rem;
   }
 }
 
