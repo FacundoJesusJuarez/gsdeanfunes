@@ -69,6 +69,11 @@ input {
     font-size: 1rem;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px $c-blanco;
+    background-color: $c-naranja;
+}
 @media (min-width: 768px) {
 
     .biblioteca__enlaces {
