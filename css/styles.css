@@ -371,6 +371,9 @@ main {
     justify-content: center;
     padding: none;
   }
+  .historia__articulos--4 {
+    border: none;
+  }
 }
 @media (min-width: 1200px) {
   .novedades__articulos {
